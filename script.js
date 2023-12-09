@@ -1,5 +1,12 @@
 function minDate(dates) {
   //write you code here
+	const clonedDates = [...dates];
+
+    
+    clonedDates.sort();
+
+    
+    return clonedDates[0];
 }
 
 // Do not change the code
